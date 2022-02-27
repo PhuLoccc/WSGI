@@ -6,6 +6,9 @@ document.getElementById("F").addEventListener("mouseup",function(){
     var result = httpPost("/manual_control","S");
     console.log(result);
 })
+// document.getElementById("F").addEventListener("click",function(){
+//     var result = httpPost("/manual_control","F");
+// })
 document.getElementById("L").addEventListener("mousedown",function(){
     var result = httpPost("/manual_control","L");
     console.log(result);

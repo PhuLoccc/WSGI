@@ -1,6 +1,6 @@
 setInterval(() => {
   getLocation();
-}, 1000);
+}, 100);
 function getLocation() {
   if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(positionProcessing, showError);
